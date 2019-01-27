@@ -8,3 +8,6 @@ In this project, implementation of John Conway’s Game of Life is created on a 
 
 For further information see the report specified in the repository, which you can find every detail about the project.
 
+Things to know:
+The project is uploaded as a Vivado Project, so you can use Xilinx Vivado Design Suite to edit and alter the code according to your needs. On the other hand, source files can be found under the
+
