@@ -9,5 +9,5 @@ In this project, implementation of John Conway’s Game of Life is created on a 
 For further information see the report specified in the repository, which you can find every detail about the project.
 
 Things to know:
-The project is uploaded as a Vivado Project, so you can use Xilinx Vivado Design Suite to edit and alter the code according to your needs. On the other hand, source files can be found under the
+The project is uploaded as a Vivado Project, so you can use Xilinx Vivado Design Suite to edit and alter the code according to your needs. On the other hand, source files can be found under the directory game_of_life/game_of_life.srcs/sources_1/new/ for the users who do not prefer Vivado. Last but not least, constraints for this project is created in order to have functionality over the FPGA board called BASYS3. Thus, for using this code in another board you need to create your own constraints according to your board. Also if your board's VGA output isn't 4-bits per colour, then you need to adjust "vga_controller" and "vga_display" modules under the directory game_of_life/game_of_life.srcs/sources_1/new/ accordingly.
 
